@@ -1,0 +1,24 @@
+planning:
+
+steps
+-read the webpage
+-create txt file
+-read a line of the text file
+-check word
+-add word to list
+
+reasoning
+-used list instead of array because list is not a set length
+-checked for unallowed letters because there are more of them and the word will be either approved or discarded more quickly
+
+
+methods:
+
+-read file void
+-check word bool
+release notes:
+
+Known Bugs:
+-does not account for duplicate letters in the word
+-does not account for blank tiles
+
